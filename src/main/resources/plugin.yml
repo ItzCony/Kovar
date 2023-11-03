@@ -1,0 +1,4 @@
+name: Kovar
+version: '${version}'
+main: me.cony.kovar.main
+api-version: '1.20'
