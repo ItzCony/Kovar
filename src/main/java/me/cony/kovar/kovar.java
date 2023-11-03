@@ -9,9 +9,13 @@ public final class kovar extends JavaPlugin {
     @Override
     public void onEnable(){
 
-        this.getCommand("lektvar").setExecutor(new DatLektvar());
-        this.getServer().getPluginManager().registerEvents(new PouzitiLektvaru(), this);
+        getCommand("lektvar").setExecutor(new DatLektvar());
 
+        getServer().getPluginManager().registerEvents(new PouzitiLektvaru(), this);
+
+
+    }
+    public void onDisable(){
 
     }
 }
