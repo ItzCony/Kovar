@@ -54,10 +54,6 @@ public class ItemBuilder {
     public ItemBuilder clone(){
         return new ItemBuilder(is);
     }
-    /**
-     * Change the durability of the item.
-     * @param dur The durability to set it to.
-     */
     public ItemBuilder setAmount(int amount){
         is.setAmount(amount);
         return this;
